@@ -1,11 +1,22 @@
 # Chainlink-Keepers
 Chainlink Keepers test
 
-### Deploy
+### Install
+
+```
+$ yarn -add
+```
+
+### Compile
+
+```
+$ npx hardhat compile
+```
+
+### Deploy & Verify
 
 ```
 $ yarn hardhat --network bsctestnet deploy
-
 $ yarn hardhat --network bsctestnet etherscan-verify --api-key <api-key>
 ```
 
